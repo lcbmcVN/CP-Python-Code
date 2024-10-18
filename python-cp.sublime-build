@@ -1,0 +1,12 @@
+{
+  "target": "terminus_exec",
+  "cancel": "terminus_cancel_build",
+
+  "focus": false,
+
+  "shell_cmd": "python -u \"$file\"",
+  "env": {
+  "PATH": "$PATH;C:\\Users\\bang\\AppData\\Local\\Programs\\Python\\Python312"
+  }
+
+}
