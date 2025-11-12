@@ -42,7 +42,7 @@
 			"if LOCAL:",
 			"\traw_input = io.BytesIO(sys.stdin.buffer.read()).readline",
 			"\tdef input():",
-			"\t\treturn raw_input().decode.rstrip('\\n')",
+			"\t\treturn raw_input().decode().rstrip('\\n')",
 			"else:",
 			"\tinput = lambda : sys.stdin.readline().rstrip('\\n')",
 			"",
