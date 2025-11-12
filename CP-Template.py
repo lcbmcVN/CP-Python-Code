@@ -25,7 +25,7 @@ IO('task')
 if LOCAL:
     raw_input = io.BytesIO(sys.stdin.buffer.read()).readline
     def input():
-        return raw_input().decode.rstrip('\n')
+        return raw_input().decode().rstrip('\n')
 else:
     input = lambda : sys.stdin.readline().rstrip('\n')
 
